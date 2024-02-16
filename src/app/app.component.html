@@ -1,0 +1,70 @@
+
+<style>
+  .toolbar {
+
+    width: 100%;
+    height: 72px;
+    background-color:#27272A;
+  }
+
+  .container-logo {
+    width: 190px;
+    top: 16px;
+    left: 625px;
+    border-radius: 8px;
+    background: #DADADA54;
+    text-align: center;
+    margin-left: 45%;
+  }
+
+  .home {
+    background-color
+    :#121212;
+    width: 100%;
+    height:100vh;
+  }
+
+
+</style>
+
+
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+  <div class="container-logo">
+    <img ngClass="logo" src={{logo}} alt="logo">
+  </div>  
+</div>
+
+<div class="home" role="main">
+  <section ngClass="container_tabela">
+    <h2 ngClass="texto">Olá, meu nome é Layane Fervale. Sou Desenvolvedor Front-end e UI/UX Designer, tenho experiência nas tecnologias:</h2>
+    <div ngClass="container_skills">
+        <ul>
+            <li>Javascript</li><br>
+            <li>React</li><br>
+            <li>Angular</li><br>
+            <li>CSS</li><br>
+        </ul>
+        <ul>
+            <li>SCSS</li><br>
+            <li>Java</li><br>
+            <li>MySQL</li><br>
+            <li>TypeScript</li><br>
+        </ul>
+        <ul>
+            <li>UI/UX</li><br>
+            <li>Figma</li><br>
+            <li>HTML</li><br>
+            <li>Canvas</li><br>
+          </ul>
+        <ul>
+          <li>Linux</li><br>
+          <li>Design Gráfico</li><br>
+          <li>Adobe XD</li><br>
+          <li>SQL</li><br>
+        </ul>
+      </div>
+  </section>
+</div>
+
+<router-outlet></router-outlet>
